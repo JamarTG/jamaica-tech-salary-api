@@ -1,6 +1,10 @@
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var connectionString = builder.Configuration.GetConnectionString("amTechSalaryDb");
+builder.Services.AddDbContext<JamTechSalaryDbContext>(options => options.UseSqlServer(connectionString));
 
 builder.Services.AddControllers();
 
