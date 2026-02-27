@@ -1,6 +1,7 @@
+using JamTechSalary.API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
-
+ 
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("amTechSalaryDb");
