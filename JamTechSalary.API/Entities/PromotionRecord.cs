@@ -1,6 +1,5 @@
 ﻿namespace JamTechSalary.API.Entities
 {
-    // ─── Promotion sub-model ──────────────────────────────────────────────────
 
     public class PromotionRecord
     {

@@ -1,6 +1,5 @@
 ﻿namespace JamTechSalary.API.Entities
 {
-    // ─── Layoff sub-model ─────────────────────────────────────────────────────
 
     public class LayoffRecord
     {
